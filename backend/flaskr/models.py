@@ -5,7 +5,7 @@ import json
 
 db_user = 'root'
 db_pass = 'toor'
-db_host = '172.23.240.1'
+db_host = '172.22.192.1'
 db_port = '5432'
 db_name = "trivia"
 db_path = f"postgresql://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}"
